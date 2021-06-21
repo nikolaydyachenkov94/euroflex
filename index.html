@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Euroflex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <div class="header__inner">
+        <div class="header__top">
+          <img src="img/header/logo.png" alt="#" class="header__logo">
+          <nav class="nav">
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a data-goto=".product" href="#" class="nav__link">Продукция</a>
+              </li>
+              <li class="nav__item">
+                <a data-goto=".solutions" href="#" class="nav__link">Отраслевые решения</a>
+              </li>
+              <li class="nav__item">
+                <a data-goto=".about" href="#" class="nav__link">Производство</a>
+              </li>
+              <li class="nav__item">
+                <a data-goto=".advantages" href="#" class="nav__link">Преимущества</a>
+              </li>
+            </ul>
+            <div class="burger">
+              <span></span>
+            </div>
+          </nav>
+          <div class="contact">
+            <a href="#" class="contact__phone">
+              +7 (495) 123-45-67
+            </a>
+            <a href="#" class="contact__phone-link popup-open">
+              Обратный звонок
+            </a>
+          </div>
+        </div> <!-- .header__top -->
+
+        <div class="header__content">
+          <h1 class="header__text">
+            <span class="headet__text_span">Еврофлекс</span> - ведущий производитель упаковки для пищевой промышленности и сельского хозяйства
+          </h1>
+          <h2 class="header__subtext">
+            Пленка БОПП с макроперфорацией до 12 отверстий
+          </h2>
+          <div class="header__about">
+            <div class="header__about-item">
+              <img class="header__about-item-img" src="img/header/factory.svg" alt="#">
+              СОБСТВЕННОЕ ПРОИЗВОДСТВО
+            </div>
+            <div class="header__about-item">
+              <img class="header__about-item-img" src="img/header/good.svg" alt="#">
+              СУПЕР-УСЛОВИЯ НОВЫХ КЛИЕНТОВ
+            </div>
+            <div class="header__about-item">
+              <img class="header__about-item-img" src="img/header/car.svg" alt="#">
+              КАЧЕСТВО, СКЛАД, СРОКИ ПРОИЗВОДСТВА 
+            </div>
+          </div>  
+        </div> <!-- .header__content -->
+        <div class="contact__form contact__form_header">
+            <form class="form" action="#">
+                <h2 class="form__title">
+                  Получите расчет за 15 мин и спецпредложение на первый заказ!
+                </h2>
+                <h3 class="form__subtitle">
+                  Количество спепредложений в рамках месяца ограничено
+                </h3>
+                <label for="name">Ваше имя*</label>
+                <input type="text" id="name" name="name" class="input__field"><br class="form__br">
+                <label for="phone">Ваш номер*</label>
+                <input type="tel" id="phone" name="phone" class="input__field">
+                <button class="form__btn">
+                  Получить спецпредложение
+                </button>
+                <p class="form__footer-text">Мы гарантируем конфиденциальность данных</p>
+            </form>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </header>
+
+
+  <section class="product">
+    <div class="container">
+      <h2 class="section__header">
+        НАША ПРОДУКЦИЯ
+      </h2>
+      <div class="tabheader__items">
+        <div class="tabheader__item tabheader__item_active">
+          <img src="img/products/tab.svg" alt="#" class="tabheader__img">
+          Полотно LINEAR
+        </div>
+        <div class="tabheader__item">
+          <img src="img/products/tab.svg" alt="#" class="tabheader__img">
+          Полотно ZIG-ZAG
+        </div>
+        <div class="tabheader__item">
+          <img src="img/products/tab.svg" alt="#" class="tabheader__img">
+          Полотно CUSTOM
+        </div>
+      </div> <!-- .tabheader__items -->
+
+      <div class="tabcontainer">
+        <div class="tabcontent">
+          <div class="tab__arrow tab__arrow_prev">
+            <img src="img/icons/left.svg" alt="prev">
+          </div>
+          <div class="tab__arrow tab__arrow_next">
+            <img src="img/icons/right.svg" alt="next">
+          </div>
+          <div class="tabcontent__item tabcontent__item_active">
+            <img src="img/products/tabcontent.svg" alt="#" class="tabcontent__img">
+            <div class="tabcontent__info">
+              <div class="tabcontent__title">
+              Полотно LINEAR
+              </div>
+              <div class="tabcontent__text">
+                Схема перфорации, в которой отверстия делаются в линию, одно за другим. Единственными настраиваемыми параметрами являются расстояние между линиями (от 10 мм) и расстояние между отверстиями в линиях (от 30 мм). Диаметры отверстий от 3 мм до 50 мм.
+              </div>
+              <button class="consult__btn">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+            </div>
+          </div>
+
+          <div class="tabcontent__item">
+            <img src="img/products/tabcontent.svg" alt="#" class="tabcontent__img">
+            <div class="tabcontent__info">
+              <div class="tabcontent__title">
+              Полотно ZIG-ZAG
+              </div>
+              <div class="tabcontent__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <button class="consult__btn">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+            </div>
+          </div>
+
+          <div class="tabcontent__item">
+            <img src="img/products/tabcontent.svg" alt="#" class="tabcontent__img">
+            <div class="tabcontent__info">
+              <div class="tabcontent__title">
+              Полотно CUSTOM
+              </div>
+              <div class="tabcontent__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <button class="consult__btn">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- .tabcontainer -->
+    </div> <!-- .container --> 
+  </section> <!-- .section -->
+
+
+  <section class="solutions">
+
+    <div class="container">
+
+      <h2 class="section__header">
+        ОТРАСЛЕВЫЕ РЕШЕНИЯ
+      </h2>
+
+      <div class="solutions__cards">
+        <div class="solutions__item">
+          <img src="img/solutions/1.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пленка для упаковки овощей и фруктов
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              LDPE или BOPP пленка с отверстиями от 6 до 50 мм, возможно программмируемое расположение отверстий
+            </li>
+            <li>
+              Нанесение печати до 8 цветов
+            </li>
+            <li>
+              Автоматические линии фасовки
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/2.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пленка для упаковки овощей и фруктов
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Готовые пакеты для фасовки овощей и фруктов с макроперфорацией
+            </li>
+            <li>
+              Нанесение печати до 8 цветов
+            </li>
+            <li>
+              Есть готовая линейка пакетов, всегда в наличии на складе
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/3.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пленка для упаковки цветов и растений
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              BOPP пленка с макроперфорацией, возможно программируемое расположение отверстий
+            </li>
+            <li>
+              Нанесение печати до 8 цветов
+            </li>
+            <li>
+              Возможно программируемое расположение отверстий
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/4.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пленка для мульчирования
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Пленка для прикрытия почвы с отверстиями для точной рассадки растений 30 мм – 50 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/5.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пленка для грибов
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Перфорированная пленка для покрытия почвы при выращивании грибов
+            </li>
+            <li>
+              Диаметр отверстий от 6 до 50 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/6.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Производство пленки
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Вентиляционные отверстия для овощей и трав
+            </li>
+            <li>
+              Диаметр отверстий от 6 до 8 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/7.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пакеты для игрушек
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Вентиляционные отверстия для предотвращения удушья
+            </li>
+            <li>
+              Отверстия 6 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/8.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пакеты для ракушек
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Отверстия для отвода воды и геля
+            </li>
+            <li>
+              Диаметр отверстий от 6 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/9.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Пакеты для винограда
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Пакеты для винограда с ручкой, печатью и макроперфорацией
+            </li>
+            <li>
+              Отверстия 6 или 8 мм
+            </li>
+          </ul>
+        </div>
+
+        <div class="solutions__item">
+          <img src="img/solutions/10.jpg" alt="#" class="solutions__item-bg">
+          <h3 class="solutions__item-header">
+            Упаковочная бумага с отверстиями 
+          </h3>
+          <ul class="solutions__info">
+            <li>
+              Диаметр отверстий от 6 до 50 мм
+            </li>
+          </ul>
+        </div>
+      </div> <!-- .solutions__cards -->
+
+      <div class="solutions__footer">
+        <span class="solutions__text-red">Скрыть все решения</span>
+        <span class="solutions__text-red hidden">Показать решения</span>
+        <img src="img/solutions/arrow.svg" alt="#" class="solutions__btn">
+        <span class="solutions__text">
+          Здесь приведены только некоторые наши решения. Получите консультацию и расчет бесплатно!
+        </span>
+        <button class="consult__btn consult__btn_red consult__btn_big popup-open">
+          Получить бесплатную консультацию
+        </button>
+      </div>
+    </div> <!-- .container -->
+  </section> <!-- .section -->
+
+
+  <section class="about">
+    <div class="container">
+      
+      <h2 class="section__header">
+        НАШЕ ПРОИЗВОДСТВО
+      </h2>
+      <div class="about__info">
+        <div class="about__company">
+          <p>Наша компания работает в сфере производства полимерных упаковочных материалов уже более. Мы имеем огромный опыт в обеспечении потребителей качественной упаковочной продукцией. Наши квалифицированные специалисты постоянно работают над поиском новых решений в упаковке, для удовлетворения всех потребностей наших клиентов.</p>
+          <br>
+          <p>Наши клиенты – производственные предприятия различных направлений, сетевая и несетевая розница, торговые оптовые компании, фермерские хозяйства и т.д.</p>
+        </div>
+        <span class="about__span">Еврофлекс - это:</span>
+        <ul class="about__list">
+          <li class="about__list-item">
+            — Непрерывное расширение спектра выпускаемой продукции и географии поставок
+          </li>
+          <li class="about__list-item">
+            — Офисы в Москве, СПБ, Новосибирске, Краснодаре
+          </li>
+          <li class="about__list-item">
+            — Поможем реализовать ваши идеи в упаковке вашей продукции
+          </li>
+          <li class="about__list-item">
+            — Продажа напрямую без посредников
+          </li>
+          <li class="about__list-item">
+            — Типовая продукция всегда в наличии на складах
+          </li>
+          <li class="about__list-item">
+            — Отлаженная система контроля качества выпускаемой продукции
+          </li>
+          <li class="about__list-item">
+            — Доставка в любую точку РФ или СНГ
+          </li>
+        </ul>
+        <a href="#" class="about__link">Будем рады знакомству и сотрудничеству с Вами!</a>
+        <div class="about__stats">
+          <div class="about__stats-item">
+            <span class="about__stats-highlight">95%</span>
+            наших клиентов пришли по рекомендациям своих друзей и коллег
+          </div>
+          <div class="about__stats-item">
+            <span class="about__stats-highlight">на 25%</span>
+            нарастили роизводственные мощности за последний квартал
+          </div>
+          <div class="about__stats-item">
+            <span class="about__stats-highlight">более 200</span>
+            компаний успешно используют нашу продукцию в своем бизнесе
+          </div>
+          <div class="about__stats-item">
+            <span class="about__stats-highlight">3,5 года</span>
+            средний срок сотрудничества с клиентами
+          </div>
+        </div>
+      </div> <!-- .about__info -->
+
+        <div class="wrapper">
+          <div class="image-slider swiper-container">
+            <div class="image-slider__wrapper swiper-wrapper">
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/1.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/2.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/3.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/4.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/5.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/6.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/7.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/8.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/9.jpg" alt="#">
+                 </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                 <div class="image-slider__image">
+                   <img src="img/slider/10.jpg" alt="#">
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev btn-slider__prev">
+            <img src="img/icons/left.svg" alt="prev">
+          </div>
+          <div class="swiper-button-next btn-slider__next">
+            <img src="img/icons/right.svg" alt="next">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+    </div> <!-- .container -->
+  </section> <!-- .section -->
+
+  <section class="advantages">
+    <div class="container">
+      <h2 class="section__header">
+        НАШИ ПРЕИМУЩЕСТВА
+      </h2>
+      <div class="advantages__inner">
+        <div class="advantages__item">
+          <img src="img/advantages/1.svg" alt="#" class="advantages__img">
+          супер-условия по сотрудничеству
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/2.svg" alt="#" class="advantages__img">
+          отличные цены
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/3.svg" alt="#" class="advantages__img">
+          программируемое расположение отверстий
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/4.svg" alt="#" class="advantages__img">
+          диаметр отверстий от 6 мм до 50 мм
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/5.svg" alt="#" class="advantages__img">
+          возможность нанесения 12 отверстий в ряд
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/6.svg" alt="#" class="advantages__img">
+          нанесение печати до 8 цветов
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/7.svg" alt="#" class="advantages__img">
+          ширина материала от 100 мм до 1350 мм
+        </div>
+        <div class="advantages__item">
+          <img src="img/advantages/8.svg" alt="#" class="advantages__img">
+          доставка по всей РФ
+        </div>
+      </div> <!-- .advantages__inner -->
+    </div> <!-- .container -->
+  </section> <!-- .section -->
+
+  <section class="order">
+    <div class="container">
+      <div class="order__inner">
+        <h3 class="order__subtitle">ЧТО ВАМ ТАК ЖЕ МОЖЕТ БЫТЬ ИНТЕРЕСНО?</h3>
+        <form class="order__items" method="#" action="#">
+          <label class="check">
+            <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">Пакеты для овощей</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">Пакеты для мусора</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">ПЭТ контейнеры для овощей</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">Пакеты с клапаном из CPP и LDPE</span>
+          </label>
+          <label class="check">
+             <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">Пакеты - майка</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" class="check__input">
+              <span class="check__box"></span>
+              <span class="check__text">Пленка BOPP</span>
+          </label>
+        </form>
+
+        <div class="contact__form contact__form_order">
+          <form class="form" action="#">
+            <h2 class="form__title">
+              Получите расчет за 15 мин и спецпредложение на первый заказ!
+            </h2>
+            <h3 class="form__subtitle">
+              Количество спепредложений в рамках месяца ограничено
+            </h3>
+            <label for="name">Ваше имя*</label>
+            <input type="text" id="name" name="name" class="input__field"><br class="form__br">
+            <label for="phone">Ваш номер*</label>
+            <input type="tel" id="phone" name="phone" class="input__field">
+            <button class="form__btn">
+              Получить спецпредложение
+            </button>
+            <p class="form__footer-text">Мы гарантируем конфиденциальность данных</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__text">
+        <p>2018,  Все названия, логотипы и товарные знаки являются собственностью корпорации ООО “Company name”</p>
+        <br>
+        <p>Посещение данного сайта и использование содержащейся на нем информации регулируется условиями нашего "Правового положения". Ознакомьтесь с нашей "Политикой конфиденциальности".</p>
+        <img src="img/footer/rec.jpg" class="footer__img" alt="#">
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup hidden">
+    <div class="popup__form">
+      <button type="button" class="popup__close">
+        <strong>×</strong>
+      </button>
+      <form class="form" action="#">
+        <h2 class="form__title">
+          Получите расчет за 15 мин и спецпредложение на первый заказ!
+        </h2>
+        <h3 class="form__subtitle">
+          Количество спепредложений в рамках месяца ограничено
+        </h3>
+        <label for="name">Ваше имя*</label>
+        <input type="text" id="name" name="name" class="input__field"><br class="form__br">
+        <label for="phone">Ваш номер*</label>
+        <input type="tel" id="phone" name="phone" class="input__field">
+        <button class="form__btn">
+          Получить спецпредложение
+        </button>
+        <p class="form__footer-text">Мы гарантируем конфиденциальность данных</p>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
